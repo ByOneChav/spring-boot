@@ -4,12 +4,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 
-// http://localhost:8080/detalles_info
+
 
 @Controller
 public class EjemploController {
 
-    
+    //http://localhost:8080/detalles_info
     @GetMapping("/detalles_info")
 
     // metodo Handler
